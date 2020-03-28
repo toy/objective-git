@@ -1687,7 +1687,7 @@
 				INFOPLIST_FILE = Info.plist;
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
-					/usr/local/opt/openssl/lib,
+					/opt/local/lib,
 					"$(PROJECT_DIR)/External/build/lib",
 				);
 				MODULEMAP_FILE = ObjectiveGit.modulemap;
@@ -1695,7 +1695,7 @@
 					"-lgit2",
 					"-force_load",
 					External/libgit2.a,
-					/usr/local/lib/libssh2.a,
+					/opt/local/lib/libssh2.a,
 					"-lcrypto",
 					"-lssl",
 					"-lcurl",
@@ -1716,7 +1716,7 @@
 				INFOPLIST_FILE = Info.plist;
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
-					/usr/local/opt/openssl/lib,
+					/opt/local/lib,
 					"$(PROJECT_DIR)/External/build/lib",
 				);
 				MODULEMAP_FILE = ObjectiveGit.modulemap;
@@ -1724,7 +1724,7 @@
 					"-lgit2",
 					"-force_load",
 					External/libgit2.a,
-					/usr/local/lib/libssh2.a,
+					/opt/local/lib/libssh2.a,
 					"-lcrypto",
 					"-lssl",
 					"-lcurl",
@@ -1956,7 +1956,7 @@
 				INFOPLIST_FILE = Info.plist;
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
-					/usr/local/opt/openssl/lib,
+					/opt/local/lib,
 					"$(PROJECT_DIR)/External/build/lib",
 				);
 				MODULEMAP_FILE = ObjectiveGit.modulemap;
@@ -1964,7 +1964,7 @@
 					"-lgit2",
 					"-force_load",
 					External/libgit2.a,
-					/usr/local/lib/libssh2.a,
+					/opt/local/lib/libssh2.a,
 					"-lcrypto",
 					"-lssl",
 					"-lcurl",
@@ -2176,7 +2176,7 @@
 				INFOPLIST_FILE = Info.plist;
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
-					/usr/local/opt/openssl/lib,
+					/opt/local/lib,
 					"$(PROJECT_DIR)/External/build/lib",
 				);
 				MODULEMAP_FILE = ObjectiveGit.modulemap;
@@ -2184,7 +2184,7 @@
 					"-lgit2",
 					"-force_load",
 					External/libgit2.a,
-					/usr/local/lib/libssh2.a,
+					/opt/local/lib/libssh2.a,
 					"-lcrypto",
 					"-lssl",
 					"-lcurl",
