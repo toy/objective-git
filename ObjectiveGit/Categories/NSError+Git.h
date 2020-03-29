@@ -28,6 +28,7 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "git2/deprecated.h"
 
 /// The error domain used by Objective-Git
 extern NSString * const GTGitErrorDomain;

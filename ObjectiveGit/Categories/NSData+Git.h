@@ -5,6 +5,7 @@
 #import <Foundation/Foundation.h>
 #import "git2/buffer.h"
 #import "git2/oid.h"
+#import "git2/deprecated.h"
 
 @interface NSData (Git)
 
